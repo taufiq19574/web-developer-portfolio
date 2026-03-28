@@ -11,6 +11,9 @@
 }
 
 /* shared style */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 .text-primary{
     color: #FD6E0A;
 }
@@ -33,10 +36,19 @@
 .dark-3{
     color: #757575;
 }
+.section-title{
+    font-size: 29px;
+    font-weight: 700;
+    color: #181818;
+}
+.section-description{
+    font-size: 15px;
+    color: #757575;
+    margin: 20px 0;
+}
 
 /* header styles */
 header{
-    background-color: #FFF8F3;
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: 50px, bottom right;
@@ -88,4 +100,29 @@ nav ul li a{
 }
 .banner-profile-pic{
     width: 495px;
+}
+
+/* main styles */
+main{
+    max-width: 970px;
+    margin: 130px auto;
+}
+
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding: 110px 130px;
+    text-align: center;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-title{
+    font-size: 17px;
+}
+.item-description{
+    font-size: 17px;
+    font-weight: 700;
 }
