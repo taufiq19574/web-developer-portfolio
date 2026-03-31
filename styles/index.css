@@ -144,3 +144,58 @@ nav ul li a{
     padding: 20px 0;
 }
 
+/* resume-styles */
+.resume{
+    max-width: 1000px;
+    margin: 100px auto;
+}
+.resume-container{
+    margin-top: 70px;
+    display: flex;
+    gap: 20px;
+}
+.column-title{
+    font-size: 21px;
+}
+.experience-title{
+    padding-top: 20px;
+    font-size: 18px;
+}
+.experience-sub-title{
+    font-weight: 600;
+    font-size: 16px;
+    padding-top: 10px;
+}
+.experience-description{
+    font-size: 15px;
+    padding: 20px 0;
+}
+.resume hr{
+    opacity: 30%;
+}
+.resume button{
+    margin: 30px 0;
+}
+
+/* footer styles */
+.footer-container{
+    display: flex;
+    gap: 100px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+footer input[type="text"], input[type="email"]{
+    width: 450px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+footer textarea{
+    border: none;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 20px 0;
+}
